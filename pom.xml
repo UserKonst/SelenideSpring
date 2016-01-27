@@ -19,7 +19,7 @@
         <allure.commons.version>1.4.19</allure.commons.version>
         
         <browser>chrome</browser>
-        
+        <chrome.driver.path>./src/main/resources/drivers/chromedriver.exe</chrome.driver.path>
         
     </properties>
     <dependencies>
@@ -100,7 +100,7 @@
                         </property>
                         <property>
                             <name>webdriver.chrome.driver</name>
-                            <value>./src/main/resources/drivers/chromedriver.exe</value>
+                            <value>${chrome.driver.path}</value>
                         </property>
                     </systemProperties>
                 </configuration>
